@@ -1,0 +1,2 @@
+# QiwiManager
+EASY QIWI API MANAGEMENT
