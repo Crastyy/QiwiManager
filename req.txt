@@ -1,0 +1,3 @@
+rich==12.4.4
+aiogram==2.20
+requests==2.27.1
