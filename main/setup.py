@@ -1,4 +1,8 @@
 from rich import print as rprint
+import os
+import json
+
+dic = {"TOKEN": None, "ADMIN": None}
 
 def toke_validate():
     rprint("[bold yellow]Введите токен Telegram Бота: ", end="")
@@ -6,6 +10,7 @@ def toke_validate():
     token_split = TOKEN.split(":")
     try:
         token_split[0] = int(token_split[0])
+        dic["TOKEN"] = f"{TOKEN}"
         return True
     except:
         rprint("[bold red]Токен введён некорректно")
@@ -16,6 +21,10 @@ def get_id():
     rprint("[bold yellow]Введите ваш telegram id: ", end="")
     try:
         ADMIN_ID = int(input())
+        with open("config.json", "a") as file:
+            dic["ADMIN"] = ADMIN_ID
+            json.dump(dic, file, indent=4)
+            file.close()
         return True
     except:
         rprint("[bold red]Не корректный ID")
