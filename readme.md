@@ -30,9 +30,9 @@
 
 ### Создайте бота с помощью [@BotFather](https://t.me/BotFather)
 ### После создания вам выдаст токен
-![Screenshot](screen.jpg)
+![Screenshot](images/screen.jpg)
 ### Далее в боте [@username_to_id_bot](https://t.me/username_to_id_bot) скопируйте свой ID телеграма
-![scr](creen.png)
+![scr](images/creen.png)
 ### Скопируйте всё
 
 ### Запустите файл setup.py
@@ -42,7 +42,7 @@
         python3 setup.py
 
 ### Введите все данный
-![screept](screept.png)
+![screept](images/screept.png)
 ### После успешнйо установки передйте в бота и следуйте инструкции в нём
 ---
 # О программе
