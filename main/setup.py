@@ -21,7 +21,7 @@ def get_id():
     rprint("[bold yellow]Введите ваш telegram id: ", end="")
     try:
         ADMIN_ID = int(input())
-        with open("config.json", "a") as file:
+        with open("config.json", "w") as file:
             dic["ADMIN"] = ADMIN_ID
             json.dump(dic, file, indent=4)
             file.close()
