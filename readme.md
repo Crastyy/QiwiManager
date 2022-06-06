@@ -1,8 +1,13 @@
 <h1 align="center"><b>QiwiManager</b></h1>
+<h2 align="center"><b>Versions</b></h2>
+
+    Python 3.10.4
+    rich 12.4.4
+    aiogram 2.20
+    requests 2.27.1
 
 
-![GitHub all releases](https://img.shields.io/github/downloads/6x00/QiwiManager/total?style=for-the-badge)
-![PyPI - License](https://img.shields.io/pypi/l/aiogram?style=for-the-badge)
+
 
 
 
@@ -43,7 +48,11 @@
 
 ### Введите все данный
 ![screept](images/screept.png)
-### После успешнйо установки передйте в бота и следуйте инструкции в нём
+### После успешнйо установки запустите файл bot.py
+    WIN:
+        python bot.py
+    LINUX:
+        python3 bot.py
 ---
 # О программе
 
