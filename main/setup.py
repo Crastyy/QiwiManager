@@ -29,6 +29,17 @@ def get_id():
     except:
         rprint("[bold red]Не корректный ID")
         return get_id()
+    
+def install_lib():
+    rprint("[bold green]Установка библиотек...")
+    try:
+        os.system('pip install -r req.txt')
+        rprint("[bold green]Установка завершена, запустите bot.py и перейдите к боут")
+    except:
+        try:
+            os.system('pip3 install -r req.txt')
+        except:
+            rprint("[bold red]Error #1")
 
 
 
@@ -46,4 +57,5 @@ rprint("""[bold yellow]
 rprint("[bold green]Добро пожаловать в QiwiManager")
 toke_validate()
 get_id()
+install_lib()
 
