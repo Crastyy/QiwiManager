@@ -25,11 +25,7 @@
 ---
 # **Downloads**
 ### Скачайте последнйи [release](https://github.com/6x00/QiwiManager/releases)
-### Установите req.txt командой:
-    WIN:
-        pip install -r req.txt
-    LINUX:
-        pip3 install -r req.txt
+
 ### Перейдите в котолог main
     cd main
 
